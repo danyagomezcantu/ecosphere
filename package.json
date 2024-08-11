@@ -1,0 +1,33 @@
+{
+  "name": "ecosphere",
+  "version": "1.0.0",
+  "description": "ecoSphere tracks and rewards sustainable actions using NFTs and blockchain, promoting eco-friendly practices with a transparent, decentralized system. Users can register, submit proof of their eco-friendly actions, and have these actions verified using real-time data from IoT devices and blockchain oracles. Verified actions result in NFTs that represent users' contributions, which can be traded, sold, or used within the ecoSphere ecosystem. This platform creates a seamless journey from action to verification to reward, fostering a community focused on sustainability.",
+  "main": "truffle-config.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@openzeppelin/contracts": "^5.0.2",
+    "@truffle/hdwallet-provider": "^2.1.15",
+    "axios": "^1.7.3",
+    "bootstrap": "^5.3.3",
+    "chai": "^5.1.1",
+    "dotenv": "^16.4.5",
+    "eslint": "^9.9.0",
+    "ethers": "^6.13.2",
+    "ganache-cli": "^6.12.2",
+    "jest": "^29.7.0",
+    "mocha": "^10.7.3",
+    "prettier": "^3.3.3",
+    "react-bootstrap": "^2.10.4",
+    "solc": "^0.8.26",
+    "truffle": "^5.11.5",
+    "web3": "^4.11.1"
+  }
+}
